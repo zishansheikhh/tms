@@ -1,0 +1,59 @@
+/* .hero-banner-container {
+    position: relative;
+    width: 96%;
+    margin: auto;
+} */
+/* .hero-banner-container .cards-basic {
+    background: #1A1A1A;
+    min-height: 415px;
+    width: 100%;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow:
+    1.1px 1.7px 2.2px rgba(0, 0, 0, 0.014),
+    2.7px 4px 5.3px rgba(0, 0, 0, 0.02),
+    5px 7.5px 10px rgba(0, 0, 0, 0.025),
+    8.9px 13.4px 17.9px rgba(0, 0, 0, 0.03),
+    16.7px 25.1px 33.4px rgba(0, 0, 0, 0.036),
+    40px 60px 80px rgba(0, 0, 0, 0.05);
+} */
+/* .coverpic {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.profilepic {
+    border-radius: 50%;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: -125px;
+    left: 20px;
+    background-color: #FFF;
+}
+.bio-container {
+    padding: 16px;
+} */
+
+/* Media Queries */
+/* @media (min-width: 999px){ */
+    /* .hero-banner-container {
+        height: 50vh;
+    } */
+    /* img.blob-1,
+    .blob-2 {
+        width: 600px !important;
+    }
+    img.blob-1 {
+        right: -54px;
+        top: 72px;
+    }
+    .blob-2 {
+        top: -500px;
+        left: -318px;
+    }
+    img.artisthero {
+        width: 200px;
+        bottom: -10px;
+        right: 165px;
+    }
+} */

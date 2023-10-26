@@ -1,0 +1,119 @@
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: auto;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-family: NunitoSans;
+    font-size: 27px;
+}
+
+.about-wrapper {
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.about-slider {
+    width: 90%;
+    margin: 40px auto;
+    box-sizing: border-box;
+}
+.about-slider-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.about-slider-container {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 10px;
+    position: relative;
+}
+.about-slider-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.about-slider-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.450);
+    color: #fff;
+    width: 99%;
+    height: 80px;
+    bottom: 5px;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+.about-slider-overlay:hover,
+.about-slider-container {
+    opacity: 1;
+}
+.about-slider-overlay p {
+    padding-left: 5px;
+}
+
+.about-content-card-grid {
+    margin-top: 60px;
+}
+
+.about-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.about-card-img-wrapper img {
+    width: 180px;
+    height: 250px;
+    border-radius: 12px;
+}
+
+.about-card-content {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+.margin-left-3 {
+    margin-left: 3rem;
+}
+.margin-right-3 {
+    margin-right: 3rem;
+}
+
+.about-card-content h3 {
+    color: #FFF;
+}
+.about-card-content p {
+    color: #FFF;
+}
+
+@media (max-width: 599px) {
+    .about-slider-container {
+        width: auto;
+        height: auto;
+    }
+    .about-slider-grid {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+    .about-card {
+        flex-direction: column;
+    }
+    .about-card-img-wrapper img {
+        width: 100%;
+        height: auto;
+    }
+    .margin-left-3 {
+        margin-left: 0;
+    }
+    .margin-right-3 {
+        margin-right: 0;
+    }
+  }

@@ -1,0 +1,89 @@
+.academy-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 70px auto;
+    width: 80%;
+}
+.academy-wrapper .cards-basic {
+    background: white;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 40px;
+    box-shadow: 1.4px 1.5px 2.2px rgba(0, 0, 0, 0.02),
+    3.3px 3.7px 5.3px rgba(0, 0, 0, 0.028),
+    6.3px 6.9px 10px rgba(0, 0, 0, 0.035),
+    11.2px 12.3px 17.9px rgba(0, 0, 0, 0.042),
+    20.9px 23px 33.4px rgba(0, 0, 0, 0.05), 50px 55px 80px rgba(0, 0, 0, 0.07);
+    transition: 0.5s all;
+}
+.academy-wrapper .cards-basic:hover {
+    box-shadow: 1.4px 1.5px 2.2px rgba(0, 0, 0, 0.09),
+    3.3px 3.7px 5.3px rgba(0, 0, 0, 0.050),
+    6.3px 6.9px 10px rgba(0, 0, 0, 0.070),
+    11.2px 12.3px 17.9px rgba(0, 0, 0, 0.068),
+    20.9px 23px 33.4px rgba(0, 0, 0, 0.09), 50px 55px 80px rgba(0, 0, 0, 0.09);
+    transition: 0.5s all;
+}
+.academy-wrapper .cards-basic img {
+    width: 150px;
+}
+.academy-wrapper .cards-basic p {
+    transition: 0.5s all;
+}
+.academy-wrapper .cards-basic p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.academy-model {
+    width: 50%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px 60px;
+    position: relative;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.02),
+    0px 0px 5.3px rgba(0, 0, 0, 0.028),
+    0px 0px 10px rgba(0, 0, 0, 0.035),
+    0px 0px 17.9px rgba(0, 0, 0, 0.042),
+    0px 0px 33.4px rgba(0, 0, 0, 0.05),
+    0px 0px 80px rgba(0, 0, 0, 0.07)
+    ;
+}
+.academy-model .close-btn {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: transparent;
+    border: none;
+    font-size: 35px;
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+}
+.academy-form {
+    width: 80%;
+    margin: auto;
+}
+.academy-form input {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid rgb(190, 190, 190);
+}
+.academy-form button {
+    margin: 30px auto;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(223, 31, 45);
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media (max-width: 767px) {
+    .academy-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,63 @@
+.topbar-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 10px;
+  height: 200px;
+  justify-content: space-around;
+  background-color: black;
+  background-image: url('/src/assets/piano_asset.png');
+  background-size: 405px;
+  background-repeat: no-repeat;
+  background-position: bottom -16px right -15px;
+ }
+ .navbar-links {
+  display: none;
+  width: 450px;
+ }
+ .navbar-links ul {
+  display: flex;
+  justify-content: space-between;
+ }
+ .navbar-links ul li {
+  list-style: none;
+ }
+ .navbar-links ul li a {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s all;
+ }
+ .navbar-links ul li a:hover {
+  color: #DF1F2D;
+ }
+ .side-menu-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+ }
+
+ /* media queires */
+ @media(min-width: 800px) {
+  .topbar-container {
+    background-image: none;
+    background-size: 2px;
+    height: 165px;
+    justify-content: space-between;
+    padding: 10px 40px;
+  }
+  .navbar-links {
+    display: block;
+  }
+  .side-menu-icon {
+    display: none;
+  }
+  img.main-logo {
+    position: absolute;
+    left: 20px;
+    top: 60px;
+   }
+}
+  

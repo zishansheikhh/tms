@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-left {
+    display: flex;
+    align-items: center;
+}
+footer .footer-left li {
+    list-style: none !important;
+}
+footer .footer-bottom {
+    width: 100%;   
+}
+footer .footer-bottom a {
+    font-size: 0.6rem;
+}

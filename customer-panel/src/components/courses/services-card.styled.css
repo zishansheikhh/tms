@@ -1,0 +1,58 @@
+.services-grid-home {
+    margin-top: 40px;
+}
+.services-grid-home h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: auto;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-family: NunitoSans;
+    font-size: 27px;
+}
+.services-grid-home-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+.services-grid-home-wrapper .cards-basic {
+    width: 350px;
+    min-height: 480px;
+    background: rgb(26, 26, 26);
+    border-radius: 12px;
+}
+.services-grid-home-wrapper .cards-basic .icon-img img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+.services-grid-home-wrapper .cards-basic .title,
+.services-grid-home-wrapper .cards-basic .description {
+    padding: 0 16px;
+}
+.services-grid-home-wrapper .cards-basic .title h3 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.services-grid-home-wrapper .cards-basic .description p {
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+.services-grid-home-wrapper .cards-basic .contact-btn {
+    text-align: center;
+    height: 70px;
+}
+@media (max-width: 767px) {
+    .services-grid-home {
+        margin-top: 50px;
+    }
+    .services-grid-home-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .services-grid-home-wrapper .cards-basic {
+        margin-bottom: 35px;
+    }
+}

@@ -1,0 +1,122 @@
+.btn.pink-bg.cta-btn-text:hover {
+    background-color: transparent;
+    border: 1px solid rgb(223, 31, 45);
+}
+.hero-banner-container.mobile {
+    position: relative;
+    width: 96%;
+    margin: 25px auto;
+}
+.hero-banner-container.mobile .cards-basic {
+    background: #1A1A1A;
+    min-height: 415px;
+    width: 100%;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow:
+    1.1px 1.7px 2.2px rgba(0, 0, 0, 0.014),
+    2.7px 4px 5.3px rgba(0, 0, 0, 0.02),
+    5px 7.5px 10px rgba(0, 0, 0, 0.025),
+    8.9px 13.4px 17.9px rgba(0, 0, 0, 0.03),
+    16.7px 25.1px 33.4px rgba(0, 0, 0, 0.036),
+    40px 60px 80px rgba(0, 0, 0, 0.05);
+}
+.hero-banner-container.mobile img.coverpic {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+    height: 250px;
+}
+.hero-banner-container.mobile .profilepic {
+    border-radius: 50%;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 125px;
+    left: 15px;
+    background-color: #FFF;
+}
+.hero-banner-container.mobile .bio-container {
+    padding: 16px;
+}
+
+.desktop-coverpic {
+    display: none;
+}
+/* studio page mobile */
+.studio-banner-container.desktop {
+    background: #1A1A1A;
+    padding: 30px;
+}
+.studio-slider .slick-initialized .slick-slide {
+    margin-right: 0;
+}
+.hero-banner-container.mobile .bio-container h3,
+.studio-bio-container h3 {
+    color: #FFF;
+}
+.hero-banner-container.mobile .bio-container p,
+.studio-bio-container p {
+    color: #FFF;
+}
+/* Media Queries */
+@media (min-width: 999px){
+    .hero-banner-container.desktop {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        background: #1A1A1A;
+    }
+    .hero-banner-container.desktop .cards-basic {
+        height: auto;
+        box-shadow: none;
+    }
+    .hero-banner-container.desktop img.coverpic {
+        width: 100%;
+        height: 400px;
+    }
+    .desktop-coverpic {
+        display: block;
+        height: 400px;
+        width: 100%;
+    }
+    .hero-banner-container.mobile .bio-container h3,
+    .studio-bio-container h3 {
+        font-size: 2rem;
+        color: #FFF;
+    }
+    .hero-banner-container.mobile .bio-container p,
+    .studio-bio-container p {
+        color: #FFF;
+        font-size: 1.33rem;
+    }
+    .coverpic {
+        display: none;
+    }
+    .hero-banner-container.desktop .bio-container {
+        padding: 50px 100px;
+    }
+    .hero-banner-container.mobile .profilepic {
+        top: 300px;
+        left: 100px;
+    }
+    /* studio page */
+    .studio-banner-container.desktop {
+        background: #1A1A1A;
+        padding: 30px;
+    }
+    .cards-basic.studio-card {
+        height: 600px;
+    }
+    .studio-slider {
+        width: 100%;
+        height: 300px;
+    }
+    .studio-slider .slick-initialized .slick-slide {
+        margin-right: 10px;
+    }
+    img.studio-coverpic {
+        width: 100%;
+    }
+}
